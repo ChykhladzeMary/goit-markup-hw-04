@@ -64,9 +64,13 @@ img {
 }
 
 .visually-hidden {
-  position: fixed;
-  transform: scale(0);
+ position: absolute;
+ clip: rect(0 0 0 0);
+ width: 1px;
+ height: 1px;
+ margin: -1px;
 }
+
 /* Логотип */
 
 .logo {
@@ -142,6 +146,15 @@ color: var(--accent-color);
     margin-left: 50px;
 }
 
+.address-map {
+    margin-bottom: 9px;
+    margin-top: 20px;
+}
+.address-mail {
+    margin-bottom: 9px;
+}
+
+
 .main-header {
     display: flex;
     align-items: center;
@@ -184,8 +197,7 @@ color: var(--accent-color);
     letter-spacing: 0.03em;
     text-decoration: none;
     font-style: normal;
-    margin-bottom: 9px;
-    
+     
 }
 
 .hero {
@@ -273,7 +285,8 @@ background-color: var(--background-main-btn);
 .work .item:last-child {
     margin-right: 0px;
 }
-.section .work {
+
+.works {
     padding-top: 0px;
 }
 .section {
@@ -334,8 +347,6 @@ background-color: var(--background-main-btn);
     margin-right: 0px;
 }
 
-.footer {
-    margin-bottom: 20px;
 }
 .team-member {
     font-weight: 500;
@@ -437,8 +448,8 @@ margin-bottom: 0px;
     background-color: var(--accent-color);
 }
 
-.main-portfolio {
-    /* background-color: greenyellow; */
+.icon {
+    width: 10px;
+    height: 16px;
 }
-
   
