@@ -282,6 +282,7 @@ background-color: var(--background-main-btn);
     width: calc(100% - 60px) / 3;
     margin-right: 30px;
 }
+
 .work .item:last-child {
     margin-right: 0px;
 }
@@ -289,6 +290,7 @@ background-color: var(--background-main-btn);
 .works {
     padding-top: 0px;
 }
+
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -310,6 +312,7 @@ background-color: var(--background-main-btn);
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-bottom: 16px;
 }
 
 
@@ -319,7 +322,7 @@ background-color: var(--background-main-btn);
 
 .foto-descr {
     padding-top: 30px;
-    padding-bottom: 30px;
+   
 }
 
 .caption{
@@ -453,3 +456,36 @@ margin-bottom: 0px;
     height: 16px;
 }
   
+.socials-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+  
+}
+
+.socials-item:not(:last-child) {
+    margin-right: 10px;
+}
+.socials-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.social-icon {
+    fill:  #AFB1B8;
+}
+
+.socials-link:hover .social-icon,
+.socials-link:focus .social-icon {
+    fill: #FFFFFF;
+}
+
+.socials-link:hover {
+    background-color: #2196F3;
+}
