@@ -140,7 +140,20 @@ color: var(--accent-color);
 .contacts {
     display: flex;
     margin-left: auto;
+   
 }
+
+.item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.contact {
+    display: flex;
+align-items: baseline;
+}
+
+
+
 
 .contacts .item + .item {
     margin-left: 50px;
@@ -488,4 +501,70 @@ margin-bottom: 0px;
 
 .socials-link:hover {
     background-color: #2196F3;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.clients-link {
+    display: flex;
+    justify-content: center;
+        align-items: center;
+        width: 170px;
+        height: 92px;
+        fill: #AFB1B8;
+        border: 1px solid #AFB1B8;
+        border-radius: 4px;
+}
+.clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.client {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+    margin-top: 94px;
+}
+
+.client.centered {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.clients-item {
+    margin-bottom: 94px;
+}
+
+.clients-link:hover {
+    border-color: #2196F3;
+}
+
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
+    fill: #2196F3;
+}
+.feat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feat-link {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 270px;
+        height: 120px;
+        fill: #212121;
+        background: #F5F4FA;
+        border-radius: 4px;
+}
+.feat-item.item:not(:last-child) {
+    margin-right: 30px;
 }
