@@ -124,7 +124,7 @@ color: var(--accent-color);
     color: var(--accent-color)
 }
 
-.contact {
+.contact-item {
     color: var(--secondary-color);
     font-weight: 500;
     font-size: 14px;
@@ -133,23 +133,24 @@ color: var(--accent-color);
     letter-spacing: 0.02em;
 }
 
-.contact:hover, .contact:focus {
+.contact-item:hover, .contact-item:focus {
     color: var(--accent-color);
 }
 
 .contacts {
     display: flex;
+    align-items: center;
     margin-left: auto;
    
 }
 
-.item:not(:last-child) {
+.contact-item:not(:last-child) {
     margin-right: 10px;
 }
 
-.contact {
+.contact-link {
     display: flex;
-align-items: baseline;
+align-items: center;
 }
 
 
@@ -188,7 +189,9 @@ align-items: baseline;
     text-decoration: none;
     font-style: normal;
    
+   
 }
+
 
 .mail {
     margin-bottom: 9px;
@@ -214,12 +217,19 @@ align-items: baseline;
 }
 
 .hero {
-    background-color: var(--background-color-basic);
+    
     margin-left: auto;
     margin-right: auto;
     padding-top: 200px;
     text-align: center;
     padding-bottom: 200px;
+    height: 600px;
+    max-width: 1600px;
+    background-color: rgba(47, 48, 58, 0.4);
+    background-image: url("../images/pic-hero.jpg");
+   
+
+
 }
 
 .hero-text {
@@ -530,7 +540,7 @@ margin-bottom: 0px;
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
-    margin-top: 94px;
+    padding-top: 94px;
 }
 
 .client.centered {
@@ -538,7 +548,7 @@ margin-bottom: 0px;
     margin-bottom: 50px;
 }
 .clients-item {
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .clients-link:hover {
@@ -565,6 +575,43 @@ margin-bottom: 0px;
         background: #F5F4FA;
         border-radius: 4px;
 }
-.feat-item.item:not(:last-child) {
+.feat-item:not(:last-child) {
     margin-right: 30px;
 }
+
+.feat-item {
+    padding-top: 94px;
+}
+.attention {
+    font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #ffffff;
+        margin-bottom: 20px;
+}
+.attention-link {
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.1);
+        fill: #FFFFFF;
+  
+}
+
+.attention-link:hover {
+    background-color: #2196F3;
+}
+
+.attention-list {
+    display: flex;
+  
+}
+.attention-item:not(:last-child) {
+    margin-right: 10px;
+}
+
