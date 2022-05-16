@@ -93,6 +93,7 @@ img {
 
 .nav-list {
     display: flex;
+
 }
 
 .nav-link {
@@ -131,6 +132,7 @@ color: var(--accent-color);
     text-decoration: none;
     line-height: 1.14;
     letter-spacing: 0.02em;
+   
 }
 
 .contact-item:hover, .contact-item:focus {
@@ -140,7 +142,7 @@ color: var(--accent-color);
 .contacts {
     display: flex;
     align-items: center;
-    margin-left: auto;
+    
    
 }
 
@@ -153,7 +155,10 @@ color: var(--accent-color);
 align-items: center;
 }
 
-
+.link {
+    text-decoration: none;
+    color: currentColor;
+}
 
 
 .contacts .item + .item {
@@ -188,8 +193,59 @@ align-items: center;
     letter-spacing: 0.03em;
     text-decoration: none;
     font-style: normal;
+
    
-   
+}
+
+.logo-footer {
+    font-family: 'Raleway', sans-serif;
+    color: var(--main-color);
+    font-size: 26px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-right: 93px;
+    display: inline-block;
+
+}
+
+
+
+.attention {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.attention-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    fill: #FFFFFF;
+
+}
+
+.attention-link:hover {
+    background-color: #2196F3;
+}
+
+.attention-list {
+    display: flex;
+
+
+}
+
+.attention-item:not(:last-child) {
+    margin-right: 10px;
 }
 
 
@@ -328,6 +384,20 @@ background-color: var(--background-main-btn);
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--background-color-basic);
+    display: flex;
+    align-items: baseline;
+
+   
+}
+
+.container-footer {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        margin-right: 156px;
+        margin-left: 215px;
+
+ 
 }
 
 .speciality {
@@ -582,6 +652,7 @@ margin-bottom: 0px;
 .feat-item {
     padding-top: 94px;
 }
+
 .attention {
     font-weight: 700;
         font-size: 14px;
@@ -609,9 +680,15 @@ margin-bottom: 0px;
 
 .attention-list {
     display: flex;
+   
+   
   
 }
 .attention-item:not(:last-child) {
     margin-right: 10px;
+}
+
+.attention-title {
+   
 }
 
