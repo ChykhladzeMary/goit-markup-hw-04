@@ -114,7 +114,7 @@ img {
     /* background-color: tomato; */
     } 
     
-    .nav-list .item:not(:last-child) {
+    .nav-list .nav-item:not(:last-child) {
     margin-right: 50px;
     }
     
